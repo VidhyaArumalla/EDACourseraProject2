@@ -1,6 +1,5 @@
 #Course2_Question1
-rm(list=ls())
-setwd('C:/Users/Vidhya/Documents/GitHub/EDACourseraProject2')
+
 #reading both files
 NEI <- readRDS("summarySCC_PM25.rds")
 SCC <- readRDS("Source_Classification_Code.rds")
